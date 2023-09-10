@@ -568,6 +568,7 @@
 
 @media screen and (max-width: 900px) {
   .mobile-nav-bar {
+    padding-left: 14px;
     height: 80px;
     width: 100%;
     position: sticky;
