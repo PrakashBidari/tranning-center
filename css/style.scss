@@ -92,6 +92,13 @@
     .card {
       border: none;
       box-shadow: 0px 0px 14px 3px rgb(226, 226, 226);
+      transition: all 0.3s ease-in-out;
+      
+
+      &:hover{
+        box-shadow: 0px 8px 8px 1px rgb(219, 219, 219);
+        transform: translateY(-12px);
+      }
 
       .card-img-link {
         border-top-left-radius: 6px;
@@ -313,6 +320,14 @@
     .card {
       border: none;
       box-shadow: 0px 0px 14px 3px rgb(226, 226, 226);
+      transition: all 0.3s ease-in-out;
+      
+
+      &:hover{
+        box-shadow: 0px 8px 8px 1px rgb(219, 219, 219);
+        transform: translateY(-12px);
+      }
+
 
       .card-img-link {
         border-top-left-radius: 6px;
@@ -901,7 +916,7 @@
 
 //Normal Banner Css Start
 .banner {
-  background-color: #fcfcf2;
+  background-color: #ffffdf;
   overflow-x: hidden;
 
   .banner-contain {
